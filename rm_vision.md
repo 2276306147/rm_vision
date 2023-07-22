@@ -251,6 +251,7 @@ ros2 launch rm_vision_bringup vision_bringup.launch.py camera_type:=hik"
 - 1. ifconfig                          ##假设为xxx.xxx.xxx.xx
 - 2. echo $DISPLAY   (要在显示屏查看，其他ssh终端不行)  ##假设为:0
 - 3. sudo apt install x11-xserver-utils	安装xserver
+  4. ？？？？？
 - 4. sudo vim /etc/lightdm/lightdm.conf 	增加许可网络连接
 - 5. xserver-allow-tcp=true	在末尾添加
 - 6. sudo systemctl restart lightdm	重启
